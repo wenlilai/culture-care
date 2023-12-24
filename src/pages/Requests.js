@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+import CSVReader from 'react-csv-reader';
 
-function Requests() {
-    return <div>
-        
-    </div>;
+function Appointments() {
+    return (
+        <div className='appointments'>
+            <h1 className='appointmentsTitle'>Appointments</h1>
+            <div className='appointmentsList'>
+
+
+            </div>
+        </div>
+    )
 }
 
-export default Home;
+export default Requests;
+
