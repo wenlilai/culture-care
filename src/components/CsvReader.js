@@ -18,24 +18,7 @@ const CsvReader = () => {
 
     return (
         <div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Column1</th>
-                        <th>Column2</th>
-                        {/* Add more columns as needed */}
-                    </tr>
-                </thead>
-                <tbody>
-                    {csvData.map((row, index) => (
-                        <tr key={index}>
-                            <td>{row.Column1}</td>
-                            <td>{row.Column2}</td>
-                            {/* Render other columns as needed */}
-                        </tr>
-                    ))}
-                </tbody>
-            </table>
+
         </div>
     );
 };

@@ -6,8 +6,6 @@ function Appointments() {
         <div className='appointments'>
             <h1 className='appointmentsTitle'>Appointments</h1>
             <div className='appointmentsList'>
-
-
             </div>
         </div>
     )
